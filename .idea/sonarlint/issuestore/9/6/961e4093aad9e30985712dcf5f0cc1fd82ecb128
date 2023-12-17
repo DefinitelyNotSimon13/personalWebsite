@@ -1,0 +1,37 @@
+
+Ejavascript:S3504")Unexpected var, use let or const instead.(¬ÑîŒ
+Ejavascript:S3504")Unexpected var, use let or const instead.(çô©
+Jjavascript:S3504")Unexpected var, use let or const instead.(í†¯¾ùÿÿÿÿ
+Ejavascript:S3504")Unexpected var, use let or const instead.(â”Êÿ
+pjavascript:S3776""TRefactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.(ª·—©
+Jjavascript:S3504#")Unexpected var, use let or const instead.(”¡õ˜ıÿÿÿÿ
+Ejavascript:S3504'")Unexpected var, use let or const instead.(Ä¦á•
+sjavascript:S2392'"WConsider moving declaration of 'i' as it is referenced outside current binding context.(Ä¦á•
+Ejavascript:S3504+")Unexpected var, use let or const instead.(Å€¥é
+Jjavascript:S3504,")Unexpected var, use let or const instead.(“Ë‹ıÿÿÿÿ
+8javascript:S2814,"'i' is already defined.(“Ë‹ıÿÿÿÿ
+Djavascript:S3504-")Unexpected var, use let or const instead.(á‚„"
+9javascript:S2814-"'chunkIds' is already defined.(á‚„"
+yjavascript:S2392-"^Consider moving declaration of 'chunkIds' as it is referenced outside current binding context.(á‚„"
+3javascript:S2814-"'fn' is already defined.(á‚„"
+sjavascript:S2392-"XConsider moving declaration of 'fn' as it is referenced outside current binding context.(á‚„"
+9javascript:S2814-"'priority' is already defined.(á‚„"
+yjavascript:S2392-"^Consider moving declaration of 'priority' as it is referenced outside current binding context.(á‚„"
+Jjavascript:S3504.")Unexpected var, use let or const instead.(‡ûçşùÿÿÿÿ
+Ejavascript:S3504/")Unexpected var, use let or const instead.(ğò¬
+tjavascript:S15290"SReview this use of bitwise "&" operator; conditional "&&" might have been intended.(ÍÈÜ¡ÿÿÿÿÿ
+?javascript:S23101"Remove this assignment of "j".(á—Úşÿÿÿÿ
+:javascript:S23108"Remove this assignment of "i".(¢Û»
+Jjavascript:S35049")Unexpected var, use let or const instead.(²¸’øúÿÿÿÿ
+Jjavascript:S3504E")Unexpected var, use let or const instead.(âœ³›ùÿÿÿÿ
+|javascript:S6582E"[Prefer using an optional chain expression instead, as it's more concise and easier to read.(âœ³›ùÿÿÿÿ
+Jjavascript:S3504Q")Unexpected var, use let or const instead.(ê×Åìÿÿÿÿÿ
+fjavascript:S6653["JUse 'Object.hasOwn()' instead of 'Object.prototype.hasOwnProperty.call()'.(ëË‡
+pjavascript:S3776j"TRefactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.(ª·—©
+Jjavascript:S3504p")Unexpected var, use let or const instead.(ƒ«ûÿÿÿÿ
+Fjavascript:S3504")Unexpected var, use let or const instead.(¤ı•É
+Kjavascript:S3504‚")Unexpected var, use let or const instead.(º¬âóÿÿÿÿÿ
+Kjavascript:S3504…")Unexpected var, use let or const instead.(®óïúÿÿÿÿ
+Kjavascript:S3504Œ")Unexpected var, use let or const instead.(øí¯úÿÿÿÿ
+~javascript:S2392Œ"\Consider moving declaration of 'result' as it is referenced outside current binding context.(øí¯úÿÿÿÿ
+Kjavascript:S3504™")Unexpected var, use let or const instead.(¨¹¹ ùÿÿÿÿ

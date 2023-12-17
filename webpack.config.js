@@ -1,3 +1,5 @@
+'use strict';
+
 const Encore = require('@symfony/webpack-encore');
 
 // Manually configure the runtime environment if not already configured yet by the "encore" command.
@@ -25,9 +27,23 @@ Encore
     // When enabled, Webpack "splits" your files into smaller pieces for greater optimization.
     .splitEntryChunks()
 
+
+
+
     // will require an extra script tag for runtime.js
     // but, you probably want this, unless you're building a single-page app
     .enableSingleRuntimeChunk()
+
+    .enablePostCssLoader((options => {
+        options.postcssOptions = {
+            ident: 'postcss-scss',
+            syntax: 'postcss-scss',
+            plugins: [
+                require('postcss-import'),
+                require('autoprefixer')
+            ]
+        };
+    }))
 
     /*
      * FEATURE CONFIG
@@ -54,20 +70,23 @@ Encore
     })
 
     // enables Sass/SCSS support
-    //.enableSassLoader()
+    .enableSassLoader((options => {
+        options.sassOptions = {
+            includePaths: ['./src/assets/scss']
+        };
+    }))
 
     // uncomment if you use TypeScript
-    //.enableTypeScriptLoader()
 
     // uncomment if you use React
-    //.enableReactPreset()
+    .enableReactPreset()
 
     // uncomment to get integrity="..." attributes on your script & link tags
     // requires WebpackEncoreBundle 1.4 or higher
-    //.enableIntegrityHashes(Encore.isProduction())
+    .enableIntegrityHashes(Encore.isProduction())
 
     // uncomment if you're having problems with a jQuery plugin
-    //.autoProvidejQuery()
+    .autoProvidejQuery()
 ;
 
 module.exports = Encore.getWebpackConfig();

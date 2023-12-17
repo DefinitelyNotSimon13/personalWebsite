@@ -1,0 +1,26 @@
+//Body
+//Light Mode
+$body-color: $darkest-color;
+$body-bg: $lightest-color;
+//Dark Mode
+$body-color-dark: $lightest-color;
+$body-bg-dark: $darkest-color;
+
+//Theme colors
+$primary: $primary-color;
+$secondary: $dark-color;
+$success: $primary-color;
+$info: $secondary-color;
+$warning: $orange-accent-color;
+$danger: $red-accent-color;
+$light: $lightest-color;
+$dark: $darkest-color;
+
+//Border colors
+$border-color:                $light-color;
+$border-color-translucent:    rgba($dark, .175);
+
+
+//NavBar
+$navbar-dark-active-color: $primary-color;
+$navbar-light-active-color: $primary-color;
